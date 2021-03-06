@@ -98,7 +98,7 @@ int main() {
         cin>>row;
         cout<<"Col :";
         cin>>col;
-        mat[row][col]=c;
+        mat[row-1][col-1]=c;
         if(gameWon(mat)=='X')
         {
             cout<<p1;
